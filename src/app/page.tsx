@@ -8,9 +8,11 @@ import { Heart } from "lucide-react";
 import { moodConfig } from "@/lib/types";
 
 export default function Home() {
-  const entries = (entriesData as JournalEntry[]).sort((a, b) =>
-    b.date.localeCompare(a.date)
-  );
+  const entries = (entriesData as JournalEntry[]).sort((a, b) => {
+    const dateCompare = b.date.localeCompare(a.date);
+    if (dateCompare !== 0) return dateCompare;
+    return b.id.localeCompare(a.id);
+  });
 
   return (
     <main className="min-h-screen pb-20">
