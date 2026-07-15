@@ -11,7 +11,9 @@
       "Diner burrito",
       "Dollar General snacks",
       "McDonald's tradition coming home"
-    ]
+    ],
+    "stickers": ["💜", "🎮"],
+    "gratitude": ["Time with Dad", "Good food all weekend", "McDonald's tradition"]
   },
   {
     "id": "entry-003",
@@ -27,6 +29,20 @@
       "Fav show: Ginny & Georgia",
       "Fav YouTubers: Sam & Colby",
       "10 goals for the new school year"
+    ],
+    "stickers": ["💜", "🌸", "⭐", "🦋"],
+    "nowPlaying": "Go Away by Weezer",
+    "goals": [
+      "Get better grades",
+      "Have a better attitude",
+      "Don't get into drama",
+      "Drop the bad friends",
+      "Be more kind",
+      "Be more confident in others and myself",
+      "Don't backtalk people or fight anyone",
+      "Ignore drama",
+      "Get a glow up",
+      "Get better style"
     ]
   }
 ]
