@@ -11,7 +11,7 @@ export default function Header() {
       <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
         Rylee&apos;s Journal
       </h1>
-      <p className="text-slate-400 mt-2 text-sm sm:text-base max-w-md mx-auto">
+      <p className="text-slate-400 dark:text-slate-400 mt-2 text-sm sm:text-base max-w-md mx-auto">
         A little space where I share my thoughts, feelings, and weekly adventures with you, Dad 💜
       </p>
     </header>

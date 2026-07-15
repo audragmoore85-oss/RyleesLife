@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           ) : (
             <div className="relative">
-              <div className="absolute left-2 top-2 bottom-2 w-0.5 bg-gradient-to-b from-pink-200 via-purple-200 to-indigo-200" />
+              <div className="absolute left-2 top-2 bottom-2 w-0.5 bg-gradient-to-b from-pink-200 via-purple-200 to-indigo-200 dark:from-pink-900 dark:via-purple-900 dark:to-indigo-900" />
               <div className="space-y-5">
                 {entries.map((entry, index) => {
                   const moodCfg = moodConfig[entry.mood];
@@ -53,7 +53,7 @@ export default function Home() {
           )}
         </div>
 
-        <footer className="text-center mt-12 pt-8 border-t border-white/40">
+        <footer className="text-center mt-12 pt-8 border-t border-white/40 dark:border-slate-700/40">
           <p className="text-sm text-slate-400 flex items-center justify-center gap-1.5">
             Made with <Heart className="w-3.5 h-3.5 text-pink-400 fill-pink-400" /> for Dad
           </p>
