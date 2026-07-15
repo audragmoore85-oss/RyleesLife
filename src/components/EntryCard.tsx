@@ -154,14 +154,14 @@ export default function EntryCard({ entry, index }: EntryCardProps) {
         </div>
       )}
 
-      <p className="text-slate-600 leading-relaxed whitespace-pre-wrap font-handwriting text-[15px]">
+      <p className="text-slate-800 leading-relaxed whitespace-pre-wrap font-handwriting text-[15px]">
         {renderBody}
       </p>
 
       {entry.nowPlaying && (
         <div className="mt-3 flex items-center gap-2 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg px-3 py-2 border border-purple-100">
           <Music className="w-4 h-4 text-purple-400" />
-          <span className="text-xs text-slate-400 font-medium">Now playing</span>
+          <span className="text-xs text-slate-400 font-medium">Lately listening to</span>
           <span className="text-sm text-purple-600 font-medium">{entry.nowPlaying}</span>
           <span className="ml-auto flex gap-0.5">
             <span className="w-1 h-3 bg-purple-300 rounded-full animate-pulse" style={{ animationDelay: "0ms" }} />
@@ -270,7 +270,7 @@ export default function EntryCard({ entry, index }: EntryCardProps) {
           <Heart className="w-3.5 h-3.5 text-pink-400" />
           Dad&apos;s Reaction
           <span className="text-slate-300 font-normal normal-case ml-1">
-            — tap to let Rylee know you read it
+            — tap to react
           </span>
         </div>
         <div className="flex gap-2">

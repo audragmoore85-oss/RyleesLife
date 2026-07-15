@@ -17,7 +17,7 @@ export default function StatsBar({ entries }: StatsBarProps) {
   const topMoodConfig = topMood ? moodConfig[topMood[0] as Mood] : null;
 
   return (
-    <div className="flex flex-wrap gap-3 justify-center mb-8">
+    <div className="flex flex-wrap gap-3 justify-center">
       <div className="flex items-center gap-2 bg-white/70 backdrop-blur-sm rounded-xl px-4 py-2.5 shadow-sm border border-white/50">
         <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-pink-400 to-rose-400 flex items-center justify-center">
           <CalendarHeart className="w-4 h-4 text-white" />

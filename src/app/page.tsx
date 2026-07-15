@@ -16,8 +16,10 @@ export default function Home() {
     <main className="min-h-screen pb-20">
       <Header />
       <div className="max-w-2xl mx-auto px-4">
-        <StatsBar entries={entries} />
-        <MoodCalendar entries={entries} />
+        <div className="flex flex-wrap items-center gap-3 justify-center mb-8">
+          <StatsBar entries={entries} />
+          <MoodCalendar entries={entries} />
+        </div>
 
         <div className="space-y-5 relative">
           {entries.length === 0 ? (
