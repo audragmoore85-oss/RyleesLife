@@ -1,0 +1,28 @@
+[
+  {
+    "id": "entry-001",
+    "date": "2026-07-12",
+    "mood": "happy",
+    "title": "Weekend Fun!",
+    "body": "Today was a really good day. I went to the park with my friends and we played for hours. The weather was perfect - not too hot, not too cold. We got ice cream after and I got my favorite flavor. I felt really happy today and just wanted to share that. I hope you're doing well too, Dad. Miss you!",
+    "highlights": [
+      "Park with friends",
+      "Ice cream day",
+      "Perfect weather"
+    ]
+  },
+  {
+    "id": "entry-002",
+    "date": "2026-07-14",
+    "mood": "calm",
+    "title": "My Weekend at Dad's",
+    "body": "This weekend was pretty chill. On Friday, we went to my dad's girlfriend's house to take her daughter to the doctor to check her baby bump because she's pregnant. After the appointment, we went back to her house and hung out for about an hour before we had to leave. Then we went to Chili's and ate dinner together. After that, we went back to my uncle's house where my dad lives, took showers, and laid down to watch a movie — but I mostly played Roblox instead.\n\nOn Saturday, we stayed inside all day because his girlfriend was going through a lot at the time and didn't want us coming over. So we just had a relaxed day at the house. Later we went to this diner and I got a burrito — it was really good! Then we stopped at Dollar General and picked up some snacks before heading back home. We took showers and I went to bed around 11:00 PM. I was really tired.\n\nOn Sunday, I came home to my mom's house. Every time I come home from my dad's, he gets me and my brother McDonald's — it's kind of our tradition. After we got home, we just stayed in and I went to bed around midnight because I was watching TV like I usually do.\n\nThat was my weekend! Nothing too crazy, but it was nice and calm.",
+    "highlights": [
+      "Chili's dinner with Dad",
+      "Roblox & movie night",
+      "Diner burrito",
+      "Dollar General snacks",
+      "McDonald's tradition coming home"
+    ]
+  }
+]
